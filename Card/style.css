@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sono', sans-serif;
+    color: palevioletred;
+}
+body{
+    background-color: #151B29;
+}
+
+button{
+    width: 60px ;
+    height: 25px;
+    background-color: rgb(249, 136, 155);
+    border-color: white;
+    border-radius: 5px;
+    color: wheat;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+.background{
+    margin-left: 40%;
+    margin-top: 12%;
+    width: 270px;
+    height: 400px;
+    display: inline-block;
+    background-color: pink;
+    background-image: url(assets/camisa-hombre.avif);
+    background-size: cover;
+    background-position: 50% 0%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px white;
+    transition: transform 0.5s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.background:hover{
+    transform: scale(1.07);
+    box-shadow: 5px 5px 20px white;
+}
+
+button:hover{
+    background-color: wheat;
+    cursor: pointer;
+    color: rgb(249, 136, 155)
+}
